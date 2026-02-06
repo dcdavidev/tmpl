@@ -1,4 +1,4 @@
 packages:
   - '.config/typescript'
-  - 'landing/*'
+  - 'apps/*'
   - 'packages/*'

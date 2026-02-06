@@ -9,6 +9,11 @@ module.exports = defineConfig({
       path: './.config/cspell/dictionary.txt',
       addWords: true,
     },
+    {
+      name: 'custom-ita-dict',
+      path: './.config/cspell/ita.txt',
+      addWords: true,
+    },
   ],
-  dictionaries: ['custom-dict'],
+  dictionaries: ['custom-dict', 'custom-ita-dict'],
 });

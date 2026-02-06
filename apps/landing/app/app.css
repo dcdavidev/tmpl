@@ -1,0 +1,13 @@
+:root {
+  --pittorica-font-family:
+    'Inter Variable', Inter, system-ui, -apple-system, sans-serif;
+  --pittorica-font-heading: 'Fugaz One', system-ui, sans-serif;
+  --pittorica-font-code: ui-monospace, SFMono-Regular, monospace;
+  --pittorica-font-strong: inherit;
+  --pittorica-font-em: inherit;
+  --pittorica-font-quote: inherit;
+}
+
+.pittorica-theme {
+  --pittorica-source-color: indigo;
+}
