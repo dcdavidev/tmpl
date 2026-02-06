@@ -1,6 +1,7 @@
 {
   "name": "web",
   "private": true,
+  "license": "CC-BY-NC-ND-4.0",
   "type": "module",
   "scripts": {
     "build": "react-router build",
