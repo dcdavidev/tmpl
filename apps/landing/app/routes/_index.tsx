@@ -34,7 +34,28 @@ export default function IndexRoute() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <Box position="relative">
+      <Card
+        translucent
+        p="1"
+        m="1"
+        style={{
+          position: 'fixed',
+          top: 0,
+          right: 0,
+          left: 0,
+          zIndex: 100,
+        }}
+      >
+        <Flex gap="2" align="start" justify="center" direction="column">
+          <Avatar
+            src={logo}
+            fallback="t"
+            onClick={() => navigate('/#home')}
+            style={{ cursor: 'pointer' }}
+          />
+        </Flex>
+      </Card>
       <Flex direction="column" gap="9">
         <Box
           id="home"
@@ -233,6 +254,6 @@ export default function IndexRoute() {
           </Card>
         </Container>
       </Box>
-    </>
+    </Box>
   );
 }

@@ -11,3 +11,7 @@
 .pittorica-theme {
   --pittorica-source-color: indigo;
 }
+
+#about {
+  scroll-margin-top: 100px;
+}
